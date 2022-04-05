@@ -1,0 +1,17 @@
+*{
+    
+    font-family: 'poppins',sans-serif;
+}
+h1{
+    text-align: center;
+}
+input{
+    position: relative; 
+    left:42%; 
+    margin-left: 0px;
+}
+
+ul{
+    position: absolute;
+    left:40%;
+}
