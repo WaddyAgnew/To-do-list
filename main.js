@@ -1,7 +1,7 @@
 function list_Update()
 {
 var list = document.createElement('li');
-var input = document.getElementById("Input Button").value;
+var input = document.getElementById("Btn").value;
 
 list.appendChild(document.createTextNode(input));
 
