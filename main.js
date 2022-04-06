@@ -1,3 +1,13 @@
+
+
+const cross = document.querySelector('ul');
+cross.addEventListener('click',function(ev) {
+    if (ev.target.tagName === 'li') {
+        ev.target.classList.toggle('crossed');
+    }
+}, false);
+
+// adding to the list
 function list_Update()
 {
 var list = document.createElement('li');
