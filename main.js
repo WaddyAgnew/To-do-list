@@ -1,8 +1,9 @@
 
+// cross ouf the list
 
-const cross = document.querySelector('ul');
+const cross = document.querySelector('UL');
 cross.addEventListener('click',function(ev) {
-    if (ev.target.tagName === 'li') {
+    if (ev.target.tagName === 'LI') {
         ev.target.classList.toggle('crossed');
     }
 }, false);
