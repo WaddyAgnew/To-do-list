@@ -1,4 +1,15 @@
 
+// removing a selected list
+var openlist= document.getElementsByTagName("LI");
+var i;
+for(i =0; i < openlist.length; i++) {
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className ="close";
+    span.appendChild(txt);
+    openlist[i].appendChild(span);
+}
+
 // cross ouf the list
 
 const cross = document.querySelector('UL');
@@ -9,6 +20,7 @@ cross.addEventListener('click',function(ev) {
 }, false);
 
 // adding to the list
+
 function list_Update()
 {
 var list = document.createElement('li');
